@@ -4,7 +4,77 @@
 <head></head>
 <body>
     <h1> git/javascript practice app </h1>
-    <h2> add git command cheatsheet to this page </h2>
+    <h2>git command cheatsheet </h2>
+    <ul>
+        <div> setup </div>
+        <li> git config --global user.name "[firstname lastname]" </li>
+        <li> git config --global user.email "[valid-email]" </li>
+        <li> git config --global color.ui auto </li>
+
+        <br><br>
+ 
+        <div> setup & init </div>
+        <li> git init </li>
+        <li> git clone [url]</li>
+
+        <br><br>
+ 
+        <div> stage & snapshot </div>
+        <li> git status </li>
+        <li> git add [file] </li>
+        <li> git reset [file] </li>
+        <li> git diff </li>
+        <li> git diff --staged </li>
+        <li> git commit -m "[descriptive message]" </li>
+       
+        <br><br>
+ 
+        <div> branch & merge </div>
+        <li> git branch </li>
+        <li> git branch [branch-name]</li>
+        <li> git checkout </li>
+        <li> git merge [branch] </li>
+        <li> git log </li>
+
+        <br><br>
+ 
+        <div> inspect & compare </div>
+        <li> git log </li>
+        <li> git log branchA . . branchB</li>
+        <li> git log --follow [file] </li>
+        <li> git diff branchA . . . branchB </li>
+        <li> git show [SHA] </li>
+
+        <br><br>
+ 
+        <div> share & update </div>
+        <li> git remote add [alias] [url] </li>
+        <li> git fetch [alias] </li>
+        <li> git merge [alias]/[branch] </li>
+        <li> git push [alias] [branch] </li>
+        <li> git pull </li>
+
+        <br><br>
+ 
+        <div> tracking path changes </div>
+        <li> git rm [file] </li>
+        <li> git mv [existing-path] [new-path] </li>
+        <li> git log --stat -M </li>
+
+        <br><br>
+ 
+        <div> rewrite history </div>
+        <li> git rebase [branch] </li>
+        <li> git reset --hard [commit] </li>
+
+        <br><br>
+ 
+        <div> temporary commits </div>
+        <li> git stash </li>
+        <li> git stash list </li>
+        <li> git stash pop </li>
+        <li> git stash drop </li>
+    </ul>        
     <!-- add table or list -->
 </body>
 <script src="base.js"></script>
