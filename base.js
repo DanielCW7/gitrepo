@@ -21,3 +21,5 @@ Person.prototype.greeting = function() {
 console.log(person1.greeting())
 console.log(person2.greeting())
 console.log(person1, person2, person3)
+
+// =============================================================================
